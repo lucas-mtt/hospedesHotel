@@ -5,7 +5,7 @@ public class App {
 
         Scanner in = new Scanner(System.in);
 
-        int numeroQuarto=000, opOcupar=0, opMenu;
+        int numeroQuarto, opOcupar, opMenu;
 
         String quartos[] = {"Livre", "Livre", "Livre", "Livre", "Livre", "Livre", "Livre", "Livre", "Livre", "Livre", "Livre", "Livre", "Livre", "Livre", "Livre", "Livre", "Livre", "Livre", "Livre", "Livre", "Livre"};
 
