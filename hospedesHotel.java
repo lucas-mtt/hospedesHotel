@@ -1,8 +1,6 @@
-package atv3;
-
 import java.util.Scanner;
 
-public class a3_ex1 {
+public class App {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
