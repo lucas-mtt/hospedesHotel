@@ -1,13 +1,20 @@
+package atv3;
+
 import java.util.Scanner;
 
-public class App {
+public class a3_ex1 {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
 
         int numeroQuarto, opOcupar, opMenu;
 
-        String quartos[] = {"Livre", "Livre", "Livre", "Livre", "Livre", "Livre", "Livre", "Livre", "Livre", "Livre", "Livre", "Livre", "Livre", "Livre", "Livre", "Livre", "Livre", "Livre", "Livre", "Livre", "Livre"};
+        String quartos[] = new String[21];
+
+        for (int i=0; i<21; i++)
+        {
+            quartos[i] = "Livre";
+        }
 
         do
         {
